@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeEnricher", ".\AttributeEnricher\AttributeEnricher.csproj", "{C431529A-54D4-4B5E-BF12-5CD1B31C641A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeEnricher", "AttributeEnricher\AttributeEnricher.csproj", "{C431529A-54D4-4B5E-BF12-5CD1B31C641A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeEnricher.Tests", ".\AttributeEnricher.Tests\AttributeEnricher.Tests.csproj", "{3C71C76B-0CA8-4CD1-AABD-6C9D2C2F1E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeEnricher.Tests", "AttributeEnricher.Tests\AttributeEnricher.Tests.csproj", "{3C71C76B-0CA8-4CD1-AABD-6C9D2C2F1E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeEnricher.PerformanceTests", "AttributeEnricher.PerformanceTests\AttributeEnricher.PerformanceTests.csproj", "{25E26407-A2A1-4E8A-85CA-416E375B3AEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3C71C76B-0CA8-4CD1-AABD-6C9D2C2F1E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C71C76B-0CA8-4CD1-AABD-6C9D2C2F1E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C71C76B-0CA8-4CD1-AABD-6C9D2C2F1E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E26407-A2A1-4E8A-85CA-416E375B3AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E26407-A2A1-4E8A-85CA-416E375B3AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E26407-A2A1-4E8A-85CA-416E375B3AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E26407-A2A1-4E8A-85CA-416E375B3AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ namespace AttributeEnricher
 {
     public interface IAttributeEnricher
     {
-        void EnrichObjectForAttribute<TAttribute, TProperty>(Func<TProperty, TAttribute, TProperty> modifyFunc)
+        void EnrichObjectForAttribute<TAttribute, TProperty>(object model, Func<TProperty, TAttribute, TProperty> modifyFunc)
             where TAttribute : Attribute;
     }
 }
